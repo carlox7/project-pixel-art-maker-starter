@@ -10,7 +10,6 @@ function pickColor(e){
     pixelColored = true;
     let color = $('#colorPicker');
     let colorPick = color.val();
-    console.log(colorPick);
     $(this).css('background-color', colorPick);
   };
 }
@@ -29,7 +28,6 @@ function makeGrid(e) {
     }
     tableRows += '</tr>';
   }
-  console.log(tableRows);
   canvas.html(tableRows);
 
   canvas.delegate('td', 'mousedown', pickColor);
