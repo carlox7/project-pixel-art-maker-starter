@@ -6,10 +6,15 @@
   "author": "Carlo Santos <carlox7@gmail.com>",
   "license": "MIT",
   "dependencies": {
+<<<<<<< HEAD
     "eslint": "^4.16.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
+=======
+    "eslint": "^4.16.0",
+    "express": "^4.16.2"
+>>>>>>> 12aa9ce61ae95c55fb7a1effebe71d6009a21563
   }
 }
